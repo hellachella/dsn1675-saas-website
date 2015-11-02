@@ -30,6 +30,10 @@ header{
 	background-color: darkgrey;
 }
 
+.uppercase{
+	text-transform: uppercase;
+}
+
 /*NAVIGATION*/
 
 .nav a, footer a{
