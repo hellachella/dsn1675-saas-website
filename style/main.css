@@ -26,6 +26,9 @@ header{
 	background-color: lightgrey;
 }
 
+.darkgrey{
+	background-color: darkgrey;
+}
 
 /*NAVIGATION*/
 
@@ -37,6 +40,9 @@ header{
 
 /*FOOTER*/
 
+footer a:hover{
+	color: #fff;
+}
 
 
 
