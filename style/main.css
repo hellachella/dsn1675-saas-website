@@ -29,7 +29,14 @@ header{
 
 /*NAVIGATION*/
 
-.nav a{
+.nav a, footer a{
 	text-decoration: none;
 	color: black;
 }
+
+
+/*FOOTER*/
+
+
+
+
