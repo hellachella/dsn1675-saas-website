@@ -11,6 +11,11 @@ header{
 }
 /*Colours & Dev*/
 
+.pricing-block{
+	border-radius: 20px;
+}
+
+
 
 .red{
 	background-color:red;
