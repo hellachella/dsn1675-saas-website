@@ -7,6 +7,7 @@ header{
 }
 
 
+
 /*Colours & Dev*/
 
 
@@ -41,6 +42,9 @@ header{
 	color: black;
 }
 
+.logo{
+	max-width: 40px;
+}
 
 /*button*/
 
