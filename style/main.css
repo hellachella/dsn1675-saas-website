@@ -82,6 +82,9 @@ background: #000;
 
 /*FOOTER*/
 
+footer{
+	clear: left;
+}
 footer a:hover{
 	color: #fff;
 }
