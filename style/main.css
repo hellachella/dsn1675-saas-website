@@ -37,10 +37,17 @@ header{
 
 /*NAVIGATION*/
 
-.nav a, footer a, .learn-more a{
+.masthead a, footer a, .learn-more a{
 	text-decoration: none;
 	color: black;
 }
+
+
+
+/*Toggle*/
+
+
+
 
 .logo{
 	max-width: 40px;
@@ -74,6 +81,70 @@ footer a:hover{
 	color: #fff;
 }
 
+
+
+
+@media only screen and (max-width: 38em){
+	.nav{
+	display: none;
+
+}
+
+.nav-check{
+
+	display: none;
+}
+
+.nav-check:checked ~ .nav{
+	display: block;
+}
+
+.nav-label{
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+
+}
+
+.nav-open, .nav-close{
+	display: block;
+	position: absolute;
+	right: .5em;
+	top: -4em;
+	width: 50px;
+}
+
+
+.nav-close{
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open{
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close{
+	display: block;
+}
+nav ol{
+	text-align: center;
+}
+nav li{
+	width: 100%;
+	padding: .5em;
+	font-size: 1.333em;
+}
+
+
+
+}
+
+@media only screen and (min-width: 38em){
+
+	.nav-check, .nav-open, .nav-close{
+		display: none;
+	}
+}
 
 
 
