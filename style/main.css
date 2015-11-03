@@ -173,11 +173,14 @@ nav li a:hover{
 	.nav-check, .nav-open, .nav-close{
 		display: none;
 	}
-}
+
 
 .logo{
 	max-width: 40px;
 }
+}
+
+@media only screen and (min-width: 60em) {
 
 
-
+}
