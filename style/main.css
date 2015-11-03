@@ -110,7 +110,7 @@ footer a:hover{
 	display: block;
 	position: absolute;
 	right: .5em;
-	top: -4em;
+	top: -3.5em;
 	width: 50px;
 }
 
@@ -145,6 +145,7 @@ nav li{
 		display: none;
 	}
 }
+
 
 
 
