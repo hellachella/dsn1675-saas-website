@@ -6,8 +6,9 @@ header{
 	padding: 0;
 }
 
-
-
+.info-block
+	display: block;
+}
 /*Colours & Dev*/
 
 
@@ -33,7 +34,11 @@ header{
 
 .blue{
 	background-color:lightblue;
-	}
+
+}
+
+.pink{
+	background-color: #facade;
 }
 
 .uppercase{
@@ -84,6 +89,7 @@ background: #000;
 
 footer{
 	clear: left;
+
 }
 footer a:hover{
 	color: #fff;
