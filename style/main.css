@@ -82,8 +82,6 @@ footer a:hover{
 }
 
 
-
-
 @media only screen and (max-width: 38em){
 	.nav{
 	display: none;
@@ -133,6 +131,17 @@ nav li{
 	width: 100%;
 	padding: .5em;
 	font-size: 1.333em;
+	background-color: darkgrey;
+
+}
+
+nav li a{
+	display: block;
+		border: 1px solid darkgrey;
+}
+
+nav li a:hover{
+	border: 1px solid lightgrey;
 }
 
 
