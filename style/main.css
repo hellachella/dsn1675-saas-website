@@ -190,7 +190,7 @@ nav li a:hover{
 @media only screen and (min-width: 60em) {
 
 .wrapper{
-	width: 60em;
+	max-width: 60em;
 	margin: 0 auto;
 }
 
