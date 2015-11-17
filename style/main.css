@@ -1,6 +1,8 @@
+
+
 html{
 	font-family: sans-serif;
-	background: #caebba;
+	background: #fff;
 }
 
 header{
@@ -18,7 +20,44 @@ header{
 
 /*Colours & Dev*/
 
+/*FINAL COLOURS*/
+.shoalblue{
+	background-color:#0066A0;
+}
+.text-shoalblue{
+	color: #0066A0;
+}
 
+.livinggreen{
+	background-color:#00AC6C;
+}
+
+.text-livinggreen{
+	color: #00AC6C;
+}
+
+.tranquilblue{
+	background-color: #05B5B2;
+}
+
+.text-tranquilblue{
+	color: #05B5B2;
+}
+.mistgrey{
+	background-color: #e6e6e6;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.rokkitt{
+	font-family: 'Rokkitt', serif;
+text-transform: uppercase;
+	letter-spacing: .5px;
+}
+
+/*DEV colours*/
 
 .red{
 	background-color:red;
@@ -61,7 +100,7 @@ header{
 
 .masthead a, footer a, .learn-more a{
 	text-decoration: none;
-	color: black;
+	color: #fff;
 }
 
 
@@ -76,6 +115,7 @@ header{
 .button{
 	margin: 0 auto;
 	text-transform: uppercase;
+	font-family: 'rokkitt', sans-serif;
 	text-align: center;
 	color: #fff;
 	max-width: 16em;
@@ -83,7 +123,7 @@ header{
 
 .button a{
 	display: block;
-	background: green;
+	background: #00AC6C;
 	border-radius: 10px;
 	color: #fff;
 	text-decoration: none;
@@ -149,18 +189,17 @@ nav li{
 	width: 100%;
 	padding: .5em;
 	font-size: 1.333em;
-	background-color: darkgrey;
+	background-color: #0066A0;
+	color: black;
 
 }
 
 nav li a{
 	display: block;
-		border: 1px solid darkgrey;
+ background: @e6e6e6;
 }
 
-nav li a:hover{
-	border: 1px solid lightgrey;
-}
+
 
 
 
