@@ -19,15 +19,21 @@
 </head>
 
 <body>
+<!--skip links for accessibility-->
+<ul class="skip-links">
+	<li><a href="#main">Jump to main content</a></li>
+	<li><a href="#	nav">Jump to navigation</a></li>
+</ul>
+
 <div class="wrapper">
 
-<header class="masthead grid xs-1 s-1 m-1 l-1 grid-bottom livinggreen">
+<header class="masthead grid xs-1 s-1 m-1 l-1 grid-bottom livinggreen" role="banner">
 	<div class="unit gutter-1-4 island-1-4 xs-2-3 s-2-3 m-1-3 l-1-4">
 		<img class="logo grid-stretch img-flex left push-0" src="images/logo-place.svg" alt="">
 		<h1 class="rokkitt left tera pad-t-1-4 pad-b-1-4 push-0"><a href="index.html">plan-it</a></h1>
 	</div>
 
-	<div class="navlist pad-b-1-2 text-right unit xs-1 s-1 m-2-3 l-3-4 grid-bottom push-0 gutter-1-2">
+	<div id="nav" class="navlist pad-b-1-2 text-right unit xs-1 s-1 m-2-3 l-3-4 grid-bottom push-0 gutter-1-2">
 			<nav>
 			<input type="checkbox" class="nav-check" id="nav-check">
 				<label class="nav-label" for="nav-check">
@@ -35,7 +41,7 @@
 					<img class="nav-close" src="images/closed-nav.svg" alt="close navigation">
 				</label>
 
-				<ol class="nav milli list-group list-group--inline push-0">
+				<ol class="nav milli list-group list-group--inline push-0" role="navigation">
 					<li class="island-1-4 unit-m-hidden unit-l-hidden unit-xl-hidden"><a href="index.html">Home</a></li>
 					<li class="island-1-4"><a href="tour.html">Features</a></li>
 					<li class="island-1-4"><a href="pricing.html">Pricing</a></li>
@@ -53,9 +59,12 @@
 
 
 <div class="grid grid-stretch">
-			<div class="tranquilblue unit text-center push-0 island xs-1 s-1 m-2-3 l-2-3">
+
+	<div class="tranquilblue gutter-1-2 xs-1 s-1 m-2-3 l-2-3 grid grid-middle>"
+			<div class="unit text-center push-0 island">
 				<p class="rokkitt text-white tera pad-t pad-b push-0">We are going to find you some free
 				time today, and we are going to make it easy.</p>
+
 			</div>
 
 
@@ -65,16 +74,18 @@
 					and turn them into a consolidated time-tracking powerhouse on any of your devices</p>
 				</div>
 
+
 				<div class="milli unit unit-m-center island-1-4 xs-1 s-1">
 						<p class="button"><a class="push island-1-2" href="sign-up.html">start for free</a></p>
 						<p class="milli learn-more unit-m-center text-center"><a href="tour.html">Learn more about Plan-It</a></p>
 				</div>
 			</div>
+
  </div>
 
 
 
-<main class="grid">
+<main id="main" class="grid" role="main">
 
 	<div class="grid mistgrey grid-stretch xs-1 s-1 m-1 l-1-2">
 		<div class="unit push-0 island text-center xs-1 s-1 m-1-3 l-1">
@@ -162,6 +173,10 @@
 			<img class="gutter-double" src="images/place-icon.svg" alt="">
 			<img src="images/place-icon.svg" alt="">
 		</div>
+	</div>
+
+	<div class="gutter-1-2 unit" role="content-info">
+	<p class="milli">© 2015</p>
 	</div>
 </footer>
 </div><!--wrapper-->
