@@ -9,19 +9,16 @@ header{
 	padding: 0;
 }
 
-.info-block
+.info-block{
 	display: block;
 }
 
 
 
-
-/*Colours & Dev*/
-
-/*FINAL COLOURS*/
 .shoalblue{
-	background-color:#0066A0;
+	background-color:#0066a0;
 }
+
 .text-shoalblue{
 	color: #0066A0;
 }
@@ -51,7 +48,7 @@ header{
 
 .rokkitt{
 	font-family: 'Rokkitt', serif;
-	letter-spacing: .5px;
+
 	text-transform: uppercase;
 }
 
@@ -188,7 +185,7 @@ footer a:hover{
 
 	nav li a{
 		display: block;
-	 	background: @e6e6e6;
+	 	background: #e6e6e6;
 	}
 }
 
