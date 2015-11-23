@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #fff;
 }
 header {
@@ -50,6 +50,24 @@ h3 {
     background-repeat: no-repeat;
     
 }
+
+.hero2{
+	background-image: url(../images/hero2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.hero3{
+	background-image: url(../images/hero3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
 .mug-bg {
     background-image: url(../images/icons_freetime.svg);
     background-size: 120%;
