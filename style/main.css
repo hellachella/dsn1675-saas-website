@@ -47,6 +47,7 @@ h3 {
 .hero {
     background-image: url(../images/hero.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .mug-bg {
@@ -55,6 +56,16 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.icon{
+	max-width: 70px;
+}
+
+h1 a,
+nav a {
+    border: none;
+}
+
 /*DEV colours- Delete later*/
 
 .red {
@@ -128,10 +139,7 @@ a {
     color: #0066a0;
     text-decoration: none;
 }
-h1 a,
-nav a {
-    border: none;
-}
+
 /*FOOTER*/
 
 footer a:hover {
