@@ -13,9 +13,7 @@ header{
 	display: block;
 }
 
-.pricing-block{
-	border-radius: 100px;
-}
+
 
 
 /*Colours & Dev*/
@@ -53,8 +51,8 @@ header{
 
 .rokkitt{
 	font-family: 'Rokkitt', serif;
-
 	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /*DEV colours*/
@@ -100,12 +98,9 @@ header{
 
 .masthead a, footer a, .learn-more a{
 	text-decoration: none;
-
 }
 
 
-
-/*Toggle*/
 .logo{
 	max-width: 50px;
 }
@@ -142,80 +137,70 @@ footer a:hover{
 
 @media only screen and (max-width: 38em){
 	.nav{
-	display: none;
+		display: none;
+	}
 
-}
+	.nav-check{
 
-.nav-check{
+		display: none;
+	}
 
-	display: none;
-}
+	.nav-check:checked ~ .nav{
+		display: block;
+	}
 
-.nav-check:checked ~ .nav{
-	display: block;
-}
+	.nav-label{
+		cursor: pointer;
+		display: inline-block;
+		position: absolute;
+	}
 
-.nav-label{
-	cursor: pointer;
-	display: inline-block;
-	position: absolute;
-
-}
-
-.nav-open, .nav-close{
-	display: block;
-	position: absolute;
-	right: .5em;
-	top: -3.5em;
-	width: 50px;
-}
+	.nav-open, .nav-close{
+		display: block;
+		position: absolute;
+		right: .5em;
+		top: -3.5em;
+		width: 50px;
+	}
 
 
-.nav-close{
-	display: none;
-}
+	.nav-close{
+		display: none;
+	}
 
-.nav-check:checked ~ .nav-label .nav-open{
-	display: none;
-}
+	.nav-check:checked ~ .nav-label .nav-open{
+		display: none;
+	}
 
-.nav-check:checked ~ .nav-label .nav-close{
-	display: block;
-}
-nav ol{
-	text-align: center;
-}
-nav li{
-	width: 100%;
-	padding: .5em;
-	font-size: 1.333em;
-	background-color: #fff;
-	color: black;
+	.nav-check:checked ~ .nav-label .nav-close{
+		display: block;
+	}
+	nav ol{
+		text-align: center;
+	}
+	nav li{
+		width: 100%;
+		padding: .5em;
+		font-size: 1.333em;
+		background-color: #fff;
+		color: black;
+	}
 
-}
-
-nav li a{
-	display: block;
- background: @e6e6e6;
-}
-
-
-
-
-
-
+	nav li a{
+		display: block;
+	 	background: @e6e6e6;
+	}
 }
 
 @media only screen and (min-width: 38em){
-
 	.nav-check, .nav-open, .nav-close{
 		display: none;
 	}
 
 
-.logo{
-	max-width: 40px;
-}
+	.logo{
+		max-width: 40px;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -223,6 +208,6 @@ nav li a{
 .wrapper{
 	max-width: 60em;
 	margin: 0 auto;
-}
+	}
 
 }
