@@ -13,6 +13,9 @@ header{
 	display: block;
 }
 
+h1, h2, h3{
+	font-weight: normal;
+}
 
 
 .shoalblue{
@@ -111,7 +114,9 @@ header{
 	text-align: center;
 	color: #fff;
 	max-width: 16em;
+
 }
+
 
 .button a{
 	display: block;
@@ -119,11 +124,23 @@ header{
 	border-radius: 10px;
 	color: #fff;
 	text-decoration: none;
+	border: none;
 }
 
-button a:hover{
-background: #000;
+
+
+.button-reversed a{
+	color:#00AC6C;
+	background-color: #fff;
 }
+
+a{
+	border-bottom: 1px dashed #bbb;
+	padding-bottom:.25em;
+	color: #0066a0;
+}
+
+
 
 /*FOOTER*/
 
@@ -131,6 +148,9 @@ footer a:hover{
 	color: #fff;
 }
 
+footer a{
+	color: #fff;
+}
 
 @media only screen and (max-width: 38em){
 	.nav{
