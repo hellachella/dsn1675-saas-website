@@ -35,7 +35,7 @@ h3 {
     background-color: #e6e6e6;
 }
 .white-opac {
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.45);
 }
 .text-white {
     color: #fff;
@@ -156,6 +156,10 @@ a {
     text-decoration: none;
 }
 
+.testimonial{
+	background-image: url(../images/paperbg.png);
+	background-repeat: repeat;
+}
 /*FOOTER*/
 
 footer a:hover {
