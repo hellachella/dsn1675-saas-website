@@ -1,230 +1,217 @@
-
-
-html{
-	font-family: sans-serif;
-	background: #fff;
+html {
+    font-family: sans-serif;
+    background: #fff;
 }
-
-header{
-	padding: 0;
+header {
+    padding: 0;
 }
-
-.info-block{
-	display: block;
+.info-block {
+    display: block;
 }
-
-h1, h2, h3{
-	font-weight: normal;
+h1,
+h2,
+h3 {
+    font-weight: normal;
 }
-
-
-.shoalblue{
-	background-color:#0066a0;
+.shoalblue {
+    background-color: #0066a0;
 }
-
-.text-shoalblue{
-	color: #0066A0;
+.text-shoalblue {
+    color: #0066A0;
 }
-
-.livinggreen{
-	background-color:#00AC6C;
+.livinggreen {
+    background-color: #00AC6C;
 }
-
-.text-livinggreen{
-	color: #00AC6C;
+.text-livinggreen {
+    color: #00AC6C;
 }
-
-.tranquilblue{
-	background-color: #05B5B2;
+.tranquilblue {
+    background-color: #05B5B2;
 }
-
-.text-tranquilblue{
-	color: #05B5B2;
+.text-tranquilblue {
+    color: #05B5B2;
 }
-.mistgrey{
-	background-color: #e6e6e6;
+.mistgrey {
+    background-color: #e6e6e6;
 }
-
-.text-white{
-	color: #fff;
+.white-opac {
+    background-color: rgba(255, 255, 255, 0.65);
 }
-
-.rokkitt{
-	font-family: 'Rokkitt', serif;
-
-	text-transform: uppercase;
+.text-white {
+    color: #fff;
 }
-
-/*DEV colours*/
-
-.red{
-	background-color:red;
+.rokkitt {
+    font-family: 'Rokkitt', serif;
+    text-transform: uppercase;
 }
-
-.yellow{
-	background-color: #ffffe0;
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    
 }
-
-.green{
-	background-color: #caebba;
+.mug-bg {
+    background-image: url(../images/icons_freetime.svg);
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+/*DEV colours- Delete later*/
 
-.lightgrey{
-	background-color: lightgrey;
+.red {
+    background-color: red;
 }
-
-.darkgrey{
-	background-color: darkgrey;
+.yellow {
+    background-color: #ffffe0;
 }
-
-.blue{
-	background-color:lightblue;
-
+.green {
+    background-color: #caebba;
 }
-
-.pink{
-	background-color: #facade;
+.lightgrey {
+    background-color: lightgrey;
 }
-
-.white{
-	background-color: #fff;
+.darkgrey {
+    background-color: darkgrey;
 }
-
-.uppercase{
-	text-transform: uppercase;
+.blue {
+    background-color: lightblue;
 }
-
+.pink {
+    background-color: #facade;
+}
+.white {
+    background-color: #fff;
+}
+.uppercase {
+    text-transform: uppercase;
+}
 /*NAVIGATION*/
 
-.masthead a, footer a, .learn-more a{
-	text-decoration: none;
+.masthead a {
+    text-decoration: none;
+    color: #fff;
 }
-
-
-.logo{
-	max-width: 50px;
+.masthead li {
+    border-right: 1px solid white;
+    padding-right: 1em;
 }
-
+.masthead li:nth-child(5) {
+    border-right: none
+}
+.logo {
+    max-width: 50px;
+}
 /*button*/
 
-.button{
-	margin: 0 auto;
-	text-transform: uppercase;
-	font-family: 'rokkitt', sans-serif;
-	text-align: center;
-	color: #fff;
-	max-width: 16em;
-
+.button {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'rokkitt', sans-serif;
+    text-align: center;
+    color: #fff;
+    max-width: 16em;
 }
-
-
-.button a{
-	display: block;
-	background: #00AC6C;
-	border-radius: 10px;
-	color: #fff;
-	text-decoration: none;
-	border: none;
+.button a {
+    display: block;
+    background: #00AC6C;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
 }
-
-
-
-.button-reversed a{
-	color:#00AC6C;
-	background-color: #fff;
+.button-reversed a {
+    color: #00AC6C;
+    background-color: #fff;
 }
-
-a{
-	border-bottom: 1px dashed #bbb;
-	padding-bottom:.25em;
-	color: #0066a0;
+a {
+    border-bottom: 1px dashed #0066a0;
+    padding-bottom: .25em;
+    color: #0066a0;
+    text-decoration: none;
 }
-
-
-
+h1 a,
+nav a {
+    border: none;
+}
 /*FOOTER*/
 
-footer a:hover{
-	color: #fff;
+footer a:hover {
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    border-bottom: 1px dashed white;
+}
+footer a:hover {
+    font-weight: bold;
+}
+footer h3,
+footer p {
+    color: #fff;
+    text-transform: uppercase;
 }
 
-footer a{
-	color: #fff;
+@media only screen and (max-width: 38em) {
+    .nav {
+        display: none;
+    }
+    .nav-check {
+        display: none;
+    }
+    .nav-check:checked ~ .nav {
+        display: block;
+    }
+    .nav-label {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+    }
+    .nav-open,
+    .nav-close {
+        display: block;
+        position: absolute;
+        right: .5em;
+        top: -3.5em;
+        width: 50px;
+    }
+    .nav-close {
+        display: none;
+    }
+    .nav-check:checked ~ .nav-label .nav-open {
+        display: none;
+    }
+    .nav-check:checked ~ .nav-label .nav-close {
+        display: block;
+    }
+    nav ol {
+        text-align: center;
+    }
+    nav li {
+        width: 100%;
+        padding: .5em;
+        font-size: 1.333em;
+        background-color: #fff;
+        color: black;
+    }
+    nav li a {
+        display: block;
+        background: #e6e6e6;
+    }
 }
 
-@media only screen and (max-width: 38em){
-	.nav{
-		display: none;
-	}
-
-	.nav-check{
-
-		display: none;
-	}
-
-	.nav-check:checked ~ .nav{
-		display: block;
-	}
-
-	.nav-label{
-		cursor: pointer;
-		display: inline-block;
-		position: absolute;
-	}
-
-	.nav-open, .nav-close{
-		display: block;
-		position: absolute;
-		right: .5em;
-		top: -3.5em;
-		width: 50px;
-	}
-
-
-	.nav-close{
-		display: none;
-	}
-
-	.nav-check:checked ~ .nav-label .nav-open{
-		display: none;
-	}
-
-	.nav-check:checked ~ .nav-label .nav-close{
-		display: block;
-	}
-	nav ol{
-		text-align: center;
-	}
-	nav li{
-		width: 100%;
-		padding: .5em;
-		font-size: 1.333em;
-		background-color: #fff;
-		color: black;
-	}
-
-	nav li a{
-		display: block;
-	 	background: #e6e6e6;
-	}
-}
-
-@media only screen and (min-width: 38em){
-	.nav-check, .nav-open, .nav-close{
-		display: none;
-	}
-
-
-	.logo{
-		max-width: 40px;
-	}
+@media only screen and (min-width: 38em) {
+    .nav-check,
+    .nav-open,
+    .nav-close {
+        display: none;
+    }
+    .logo {
+        max-width: 40px;
+    }
 }
 
 @media only screen and (min-width: 60em) {
-
-.wrapper{
-	max-width: 60em;
-	margin: 0 auto;
-	}
-
+    .wrapper {
+        max-width: 60em;
+        margin: 0 auto;
+    }
 }
