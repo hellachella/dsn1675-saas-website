@@ -58,7 +58,7 @@ h3 {
 }
 
 .icon{
-	max-width: 70px;
+	width: 60px;
 }
 
 h1 a,
@@ -108,9 +108,7 @@ nav a {
 .masthead li:nth-child(5) {
     border-right: none
 }
-.logo {
-    max-width: 50px;
-}
+
 /*button*/
 
 .button {
@@ -156,6 +154,10 @@ footer h3,
 footer p {
     color: #fff;
     text-transform: uppercase;
+}
+
+footer img{
+	margin: 0 1em;
 }
 
 @media only screen and (max-width: 38em) {
