@@ -1,6 +1,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
     background: #fff;
+
 }
 header {
     padding: 0;
@@ -8,6 +9,8 @@ header {
 .info-block {
     display: block;
 }
+
+
 h1,
 h2,
 h3 {
@@ -154,8 +157,8 @@ nav a:hover{
     background-color: #fff;
 }
 a {
-    border-bottom: 1px dashed #0066a0;
-    padding-bottom: .1em;
+    border-bottom: 1px dotted #0066a0;
+
     color: #0066a0;
     text-decoration: none;
 }
@@ -170,11 +173,14 @@ footer a:hover {
     color: #fff;
 }
 footer a {
-    color: #fff;
-    border-bottom: 1px dashed white;
+    color: rgba(255,255,255, 0.8);
+    border-bottom: 1px dotted rgba(255,255,255,0.7);
 }
+
+
 footer a:hover {
     font-weight: bold;
+    color: rgba(255,255,255, 1)
 }
 footer h3,
 footer p {
@@ -187,6 +193,14 @@ footer img{
 }
 
 @media only screen and (max-width: 38em) {
+.testimonial{
+	background-image: none;
+}
+
+.mug-bg{
+	background-image: none;
+}
+
     .nav {
         display: none;
     }
@@ -236,6 +250,9 @@ footer img{
     	background: rgba(255,255,255,0.1);
     	color: rgba(0,0,0,0.6)
     }
+
+
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -247,6 +264,8 @@ footer img{
     .logo {
         max-width: 40px;
     }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -254,4 +273,11 @@ footer img{
         max-width: 60em;
         margin: 0 auto;
     }
+
+	html{          -webkit-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    -o-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+
 }
