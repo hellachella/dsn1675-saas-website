@@ -48,21 +48,21 @@ h3 {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .hero2{
 	background-image: url(../images/hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .hero3{
 	background-image: url(../images/hero3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 
@@ -155,7 +155,7 @@ nav a:hover{
 }
 a {
     border-bottom: 1px dashed #0066a0;
-    padding-bottom: .25em;
+    padding-bottom: .1em;
     color: #0066a0;
     text-decoration: none;
 }
