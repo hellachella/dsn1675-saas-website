@@ -84,6 +84,10 @@ nav a {
     border: none;
 }
 
+nav a:hover{
+	color:rgba(0,0,0,0.3);
+}
+
 /*DEV colours- Delete later*/
 
 .red {
@@ -219,14 +223,18 @@ footer img{
     }
     nav li {
         width: 100%;
-        padding: .5em;
+        padding: 1em;
         font-size: 1.333em;
-        background-color: #fff;
         color: black;
     }
     nav li a {
         display: block;
-        background: #e6e6e6;
+        padding: .5em;
+    }
+
+    nav li a:hover{
+    	background: rgba(255,255,255,0.1);
+    	color: rgba(0,0,0,0.6)
     }
 }
 

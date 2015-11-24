@@ -20,13 +20,13 @@
 <body>
 <div class="wrapper">
 
-<header class="masthead grid xs-1 s-1 m-1 l-1 grid-bottom lightgrey">
-	<div class="unit gutter-1-4 island-1-4 xs-2-3 s-2-3 m-1-3 l-1-4">
-		<img class="logo grid-stretch img-flex left push-0"src="images/logo-place.svg" alt="">
+<header class="masthead grid xs-1 s-1 m-1 l-1 grid-bottom livinggreen" role="banner">
+	<div class="unit gutter-1-2 island-1-4 xs-2-3 s-2-3 m-1-3 l-1-4">
+		<img class="icon img-flex left push-r-1-2 push-0" src="images/plan-it-logo.svg" alt="">
 		<h1 class="left tera pad-t-1-4 pad-b-1-4 push-0"><a href="index.html">plan-it</a></h1>
 	</div>
 
-	<div class="navlist pad-b-1-2 text-right unit xs-1 s-1 m-2-3 l-3-4 grid-bottom push-0 gutter-1-2">
+	<div id="nav" class="navlist pad-b-1-2 text-right unit xs-1 s-1 m-2-3 l-3-4 grid-bottom push-0 gutter-1-2">
 			<nav>
 			<input type="checkbox" class="nav-check" id="nav-check">
 				<label class="nav-label" for="nav-check">
@@ -34,7 +34,7 @@
 					<img class="nav-close" src="images/closed-nav.svg" alt="close navigation">
 				</label>
 
-				<ol class="nav milli list-group list-group--inline push-0">
+				<ol class="nav milli list-group list-group--inline push-0" role="navigation">
 					<li class="island-1-4 unit-m-hidden unit-l-hidden unit-xl-hidden"><a href="index.html">Home</a></li>
 					<li class="island-1-4"><a href="tour.html">Features</a></li>
 					<li class="island-1-4"><a href="pricing.html">Pricing</a></li>
@@ -47,19 +47,19 @@
 
 <div class="grid grid-stretch white">
 	<div class="unit island xs-1 s-1 m-1 l-1-3 blue">
-	<h3 class="push-0 text-center">Change the way you organize your life</h3>
+	<h3 class="rokkitt push-0 text-center">Change the way you organize your life</h3>
 	</div>
 
 
 		<div class="unit xs-1 s-1 m-1-2 l-1-3 unit-content-distribute island-1-2 push-0 pink">
 			<div class="content-fill">
-				<h2 class="mega push-0">Social Media Integration</h2>
+				<h2 class="rokkitt mega push-0">Social Media Integration</h2>
 				<p>
 				All events can be scheduled  and prioritized together.
 				No more juggling multi platforms, no more missed events.
 				</p>
 
-				<h2 class="mega push-0">Flexible Sharing</h2>
+				<h2 class="rokkitt mega push-0">Flexible Sharing</h2>
 				<p class="push-0">
 				Shareable, Sortable, and Import/Exportable Calendars between other Plan-It
 				users as well as functionality with non-users, across multiple devices.
@@ -78,12 +78,12 @@
 		<div class="unit xs-1 s-1 m-1-2 l-1-3 unit-content-distribute  island-1-2 push-0 yellow">
 
 		<div class="content-fill">
-			<h2 class="mega push-0">Event Creation and Planning Tools</h2>
+			<h2 class="rokkitt mega push-0">Event Creation and Planning Tools</h2>
 			<p>
 			Create guest lists, RSVP, and create an event info page inside of Plan-It.
 			</p>
 
-			<h2 class="mega push-0">Easy Event and Schedule Sorting</h2>
+			<h2 class="rokkitt mega push-0">Easy Event and Schedule Sorting</h2>
 			<p class="push-0">
 			Rank your events and appointments and we will send you appropriate reminders.
 			In a top ranked meeting?  Plan-it will send a silent notification.
@@ -105,16 +105,8 @@
 
 
 
-
-
-
-
-
-
-
-
-<footer class="grid">
-	<div class="unit xs-1 s-1 m-1 l-1 island-1-2 darkgrey">
+<footer class="shoalblue grid">
+	<div class="unit xs-1 s-1 m-1 l-1 island-1-2">
 
 		<div class="unit left push-0 xs-1 s-1-2 m-1-4 l-1-4">
 			<h3 class="milli push-0">Product</h3>
@@ -144,17 +136,23 @@
 
 			<h3 class="milli push-0">Support</h3>
 			<ol class="micro list-group">
+				<li><a href="#">Accessibility</a></li>
 				<li><a href="#">Help Center</a></li>
 				<li><a href="#">Plan-It Product Pro</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ol>
 		</div>
 
-		<div class="unit xs-1 s-1 m-1-2 l-1-2">
-			<img src="images/place-icon.svg" alt="">
-			<img class="gutter-double" src="images/place-icon.svg" alt="">
-			<img src="images/place-icon.svg" alt="">
+		<div class="unit text-center xs-1 s-1 m-1-2 l-1-2">
+			<img class="icon" src="images/icons_facebook.svg" alt="facebook">
+			<img class="icon" src="images/icons_twitter.svg" alt="twitter">
+			<img class="icon" src="images/icons_googleplus.svg" alt="google plus">
+			
 		</div>
+	</div>
+
+	<div class="gutter-1-2 unit" role="content-info">
+	<p class="milli">© 2015</p>
 	</div>
 </footer>
 </div>
