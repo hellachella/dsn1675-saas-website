@@ -152,9 +152,18 @@ nav a:hover{
     text-decoration: none;
     border: none;
 }
+
+.button a:hover{
+    background-color:#05b58a;
+
+}
 .button-reversed a {
     color: #00AC6C;
     background-color: #fff;
+}
+
+.button-reversed a:hover{
+    background-color:#feffd7;
 }
 a {
     border-bottom: 1px dotted #0066a0;
@@ -173,13 +182,13 @@ footer a:hover {
     color: #fff;
 }
 footer a {
-    color: rgba(255,255,255, 0.8);
+    color: rgba(255,255,255, 0.7);
     border-bottom: 1px dotted rgba(255,255,255,0.7);
 }
 
 
 footer a:hover {
-    font-weight: bold;
+    
     color: rgba(255,255,255, 1)
 }
 footer h3,
