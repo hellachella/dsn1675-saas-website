@@ -65,7 +65,7 @@
 
   <div>
     <label for="name">Name</label>
-    <input id="name" type="text" name="name" required>
+    <input id="name" type="text" name="name" required placeholder="Firstname Lastname">
   </div>
 
   <div>
@@ -73,40 +73,30 @@
     <input id="email" type="email" name="email" required placeholder="you@gmail.com">
   </div>
 
-  <div>
-    <label for="subject">Subject</label>
-    <select id="subject" name="_subject">
-      <option>Option 1</option>
-      <option>Option 2</option>
-      <option>Option 3</option>
-    </select>
+<div>
+    <label for="password">Choose a Password</label>
+    <input id="password" type="password" name="password" required>
+  </div>
+<div>
+    <label for="password">Confirm your password</label>
+    <input id="password" type="password" name="password" required>
   </div>
 
 
-  <fieldset>
-    <legend>How are you?</legend>
-
-    <input id="happy" type="radio" name="feels" value="happy">
-    <label for="happy">Happy</label>
-
-    <input id="sad" type="radio" name="feels" value="sad">
-    <label for="sad">Sad</label>
-
-    <input id="mad" type="radio" name="feels" value="mad">
-    <label for="mad">Mad</label>
-
-    <input id="hungry" type="radio" name="feels" value="hungry">
-    <label for="hungry">Hungry</label>
-
-  </fieldset>
 
   <div>
-    <label for="message">Message</label>
-    <textarea id="message" name="message"></textarea>
+  	<input id="checkbox" type="checkbox" name="checkbox">
+  	<label for="checkbox">Yes</label>
+
   </div>
 
-  <div>
-    <button type="submit">Send!</button>
+
+  <div class="button">
+    <button type="submit">Start free trial</button>
+  </div>
+
+  <div class="milli">
+  <p>By creating an account, you are agreeing to our Terms of Service and Privacy Policy</p>
   </div>
 
 	<input type="hidden" name="_next" value="https://hellachella.github.io/thanks">
