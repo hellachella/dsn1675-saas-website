@@ -137,13 +137,14 @@ nav a:hover{
 /*Form*/
 
 input{
+  
     background-color: #e6e6e6;
     border: none;
     padding: .5em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     border-radius: 5px;
     font-size: .7em;
-    width: 80%;
+    width: 90%;
 }
 
 input[type="checkbox"]{
@@ -152,8 +153,14 @@ input[type="checkbox"]{
 
 
 /*button*/
+button{
+   border:none;
+   background: #00ac6c;
+   border-radius: 10px;
+   padding: .5em;
+}
 
-.button {
+.button, button {
     margin: 0 auto;
     text-transform: uppercase;
     font-family: 'rokkitt', sans-serif;
