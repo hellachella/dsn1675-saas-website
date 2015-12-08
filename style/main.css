@@ -46,6 +46,7 @@ h3 {
 .rokkitt {
     font-family: 'Rokkitt', serif;
     text-transform: uppercase;
+
 }
 .hero {
     background-image: url(../images/hero.jpg);
@@ -137,7 +138,7 @@ nav a:hover{
 /*Form*/
 
 input{
-  
+
     background-color: #e6e6e6;
     border: none;
     padding: .5em;
@@ -187,7 +188,7 @@ button{
 }
 
 .button-reversed a:hover{
-    background-color:#feffd7;
+    background-color:#e6e6e6;
 }
 a {
     border-bottom: 1px dotted #0066a0;
