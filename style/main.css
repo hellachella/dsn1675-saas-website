@@ -45,7 +45,7 @@ h3 {
 }
 .rokkitt {
     font-family: 'Rokkitt', serif;
-    text-transform: uppercase;
+
 
 }
 .hero {
@@ -72,11 +72,13 @@ h3 {
 
 
 
-.mug-bg {
+.mug-bg{
+
     background-image: url(../images/icons_freetime.svg);
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .icon{
@@ -233,7 +235,10 @@ footer img{
 
 .mug-bg{
 	background-image: none;
+
 }
+
+
 
     .nav {
         display: none;
