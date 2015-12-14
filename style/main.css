@@ -1,148 +1,152 @@
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans',sans-serif;
     background: #fff;
-
 }
+
 header {
     padding: 0;
 }
+
 .info-block {
     display: block;
 }
 
-
-h1,
-h2,
-h3 {
-    font-weight: normal;
+h1,h2,h3 {
+    font-weight: 400;
     border-radius: 5px;
 }
+
 .shoalblue {
     background-color: #0066a0;
 }
+
 .text-shoalblue {
     color: #0066A0;
 }
+
 .livinggreen {
     background-color: #00AC6C;
 }
+
 .text-livinggreen {
     color: #00AC6C;
 }
+
 .tranquilblue {
     background-color: #05B5B2;
 }
+
 .text-tranquilblue {
     color: #05B5B2;
 }
+
 .mistgrey {
     background-color: #e6e6e6;
 }
+
 .white-opac {
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255,255,255,0.55);
 }
+
 .text-white {
     color: #fff;
 }
+
 .rokkitt {
-    font-family: 'Rokkitt', serif;
-
-
-
+    font-family: 'Rokkitt',serif;
 }
+
 .hero {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-.hero2{
-	background-image: url(../images/hero2.jpg);
+.hero2 {
+    background-image: url(../images/hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-.hero3{
-	background-image: url(../images/hero3.jpg);
+.hero3 {
+    background-image: url(../images/hero3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-
-
-
-.mug-bg{
-
+.mug-bg {
     background-image: url(../images/icons_freetime.svg);
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-.icon{
-	width: 60px;
+.icon {
+    width: 60px;
 }
 
-h1 a,
-nav a {
+h1 a,nav a {
     border: none;
 }
 
-nav a:hover{
-	color:rgba(0,0,0,0.3);
+nav a:hover {
+    color: rgba(0,0,0,0.3);
 }
 
 /*DEV colours- Delete later*/
-
 .red {
     background-color: red;
 }
+
 .yellow {
     background-color: #ffffe0;
 }
+
 .green {
     background-color: #caebba;
 }
+
 .lightgrey {
-    background-color: lightgrey;
+    background-color: #d3d3d3;
 }
+
 .darkgrey {
     background-color: darkgrey;
 }
+
 .blue {
-    background-color: lightblue;
+    background-color: #add8e6;
 }
+
 .pink {
     background-color: #facade;
 }
+
 .white {
     background-color: #fff;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
-/*NAVIGATION*/
 
+/*NAVIGATION*/
 .masthead a {
     text-decoration: none;
     color: #fff;
 }
+
 .masthead li {
-    border-right: 1px solid white;
+    border-right: 1px solid #fff;
     padding-right: 1em;
 }
+
 .masthead li:nth-child(5) {
-    border-right: none
+    border-right: none;
 }
 
 /*Form*/
-
-input{
-
+input {
     background-color: #e6e6e6;
     border: none;
     padding: .5em;
@@ -152,27 +156,27 @@ input{
     width: 90%;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     width: auto;
 }
 
-
 /*button*/
-button{
-   border:none;
-   background: #00ac6c;
-   border-radius: 10px;
-   padding: .5em;
+button {
+    border: none;
+    background: #00ac6c;
+    border-radius: 10px;
+    padding: .5em;
 }
 
-.button, button {
+.button,button {
     margin: 0 auto;
     text-transform: uppercase;
-    font-family: 'rokkitt', sans-serif;
+    font-family: 'rokkitt',sans-serif;
     text-align: center;
     color: #fff;
     max-width: 16em;
 }
+
 .button a {
     display: block;
     background: #00AC6C;
@@ -182,130 +186,127 @@ button{
     border: none;
 }
 
-.button a:hover{
-    background-color:#05b58a;
-
+.button a:hover {
+    background-color: #05b58a;
 }
+
 .button-reversed a {
     color: #00AC6C;
     background-color: #fff;
 }
 
-.button-reversed a:hover{
-    background-color:rgba(255,255,255,0.9);
+.button-reversed a:hover {
+    background-color: rgba(255,255,255,0.9);
     color: #0066A0;
 }
+
 a {
     border-bottom: 1px dotted #0066a0;
-
     color: #0066a0;
     text-decoration: none;
 }
 
-.testimonial{
-	background-image: url(../images/paperbg.png);
-	background-repeat: repeat;
+.testimonial {
+    background-image: url(../images/paperbg.png);
+    background-repeat: repeat;
 }
-/*FOOTER*/
 
+/*FOOTER*/
 footer a:hover {
     color: #fff;
 }
+
 footer a {
-    color: rgba(255,255,255, 0.7);
+    color: rgba(255,255,255,0.7);
     border-bottom: 1px dotted rgba(255,255,255,0.7);
 }
 
-
 footer a:hover {
-
-    color: rgba(255,255,255, 1)
+    color: rgba(255,255,255,1);
 }
-footer h3,
-footer p {
+
+footer h3,footer p {
     color: #fff;
     text-transform: uppercase;
 }
 
-footer img{
-	margin: 0 1em;
+footer img {
+    margin: 0 1em;
 }
 
 @media only screen and (max-width: 38em) {
-
-
-.mug-bg{
-	background-image: none;
-
-}
-
-
+    .mug-bg {
+        background-image: none;
+    }
 
     .nav {
         display: none;
     }
+
     .nav-check {
         display: none;
     }
+
     .nav-check:checked ~ .nav {
         display: block;
     }
+
     .nav-label {
         cursor: pointer;
         display: inline-block;
         position: absolute;
     }
-    .nav-open,
-    .nav-close {
+
+    .nav-open,.nav-close {
         display: block;
         position: absolute;
         right: .5em;
         top: -3.5em;
         width: 50px;
     }
+
     .nav-close {
         display: none;
     }
+
     .nav-check:checked ~ .nav-label .nav-open {
         display: none;
     }
+
     .nav-check:checked ~ .nav-label .nav-close {
         display: block;
     }
+
     nav ol {
         text-align: center;
     }
+
     nav li {
         width: 100%;
         padding: 1em;
         font-size: 1.333em;
-        color: black;
+        color: #000;
     }
+
     nav li a {
         display: block;
         padding: .5em;
     }
 
-    nav li a:hover{
-    	background: rgba(255,255,255,0.1);
-    	color: rgba(0,0,0,0.6)
+    nav li a:hover {
+        background: rgba(255,255,255,0.1);
+        color: rgba(0,0,0,0.6);
     }
-
-
-
 }
 
 @media only screen and (min-width: 38em) {
-    .nav-check,
-    .nav-open,
-    .nav-close {
+    .nav-check,.nav-open,.nav-close {
         display: none;
     }
+
     .logo {
         max-width: 40px;
     }
-
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -313,7 +314,4 @@ footer img{
         max-width: 75em;
         margin: 0 auto;
     }
-
-
-
 }
