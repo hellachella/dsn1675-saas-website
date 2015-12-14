@@ -231,9 +231,7 @@ footer img{
 }
 
 @media only screen and (max-width: 38em) {
-.testimonial{
-	background-image: none;
-}
+
 
 .mug-bg{
 	background-image: none;
